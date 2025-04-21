@@ -1,6 +1,6 @@
 import { Alert } from "react-native";
 
-const GEMINI_API_KEY = 'AIzaSyC0iBPYwdY-O5uNetQvYR8R4EhpoeO4uAA';
+const GEMINI_API_KEY=your_api_key_here;
 
 const fetchGeminiReply = async (msg: string) => {
       const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`, {
